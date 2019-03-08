@@ -1,7 +1,7 @@
 # image: ohze/flutter
 FROM cirrusci/flutter:base
 
-ENV FLUTTER_VERSION "1.3.4"
+ENV FLUTTER_VERSION "1.3.8"
 ENV FLUTTER_HOME $HOME/sdks/flutter
 ENV FLUTTER_ROOT $FLUTTER_HOME
 ENV PATH $PATH:$FLUTTER_HOME/bin:$FLUTTER_HOME/bin/cache/dart-sdk/bin
